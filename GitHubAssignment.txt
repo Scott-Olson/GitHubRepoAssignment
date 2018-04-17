@@ -1,0 +1,20 @@
+//Create  dir
+mkdir GitHubRepoAssignment
+
+//Initialie git repo
+cd GitHubRepoAssignment
+git init
+
+//make read me
+touch readme.md
+
+//status, add, commit
+git status
+git add .
+git commit -m "added readme.md"
+
+//push
+git remote add origin https://github.com/Scott-Olson/GitHubRepoAssignment.git
+
+git push -u origin master
+
